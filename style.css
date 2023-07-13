@@ -45,16 +45,27 @@ header {
 }
 
 .header__wrapper {
-  height: 40px;
+  display: flex;
+  gap: 500px;
+  align-items: center;
 }
 
 .navigation {
+  width: 533px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .navigation__link {
   color: #000;
   font-size: 14px;
   font-family: "Gilroy-SemiBold";
+}
+
+.icon {
+  display: flex;
+  gap: 3px;
+  align-items: baseline;
 }
 
 .navigation__link:focus {
@@ -66,9 +77,12 @@ main {
 }
 
 .content__wrapper {
+  display: flex;
+  justify-content: space-between;;
 }
 
 .content__block {
+  width: 522px;
 }
 
 .content__maintitle {
@@ -78,6 +92,7 @@ main {
 }
 
 .content__description {
+  width: 466px;
   color: #888;
   font-size: 20px;
   font-family: Gilroy-Medium;
@@ -85,6 +100,8 @@ main {
 }
 
 .contents__btns {
+  display: flex;
+  gap: 72px;
 }
 
 .contents__btns__btn {
@@ -103,11 +120,11 @@ main {
   background: none;
 }
 
-.btn__play {
-}
-
 footer {
 }
 
 .logos {
+  display: flex;
+  justify-content: space-between;
+  padding: 97px 0 97px 0;
 }
